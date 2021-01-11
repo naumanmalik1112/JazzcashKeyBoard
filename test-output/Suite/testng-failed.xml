@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test1(failed)">
+    <parameter name="MSISDN" value="03435598382"/>
+    <parameter name="udid" value="R58M95CTTZF"/>
+    <parameter name="device" value="Samsung"/>
+    <parameter name="platform" value="9"/>
+    <parameter name="systemPort" value="4723"/>
+    <classes>
+      <class name="tests.Login">
+        <methods>
+          <include name="reportTearDown"/>
+          <include name="Search"/>
+          <include name="EnterPin"/>
+          <include name="AmountEnter"/>
+          <include name="reportSetup"/>
+          <include name="setup"/>
+          <include name="startReport"/>
+        </methods>
+      </class> <!-- tests.Login -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

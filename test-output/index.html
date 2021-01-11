@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Jazz_Cash_Consumer_App" class="navigator-link">
+              <span class="suite-name border-failed">Jazz Cash Consumer App</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Jazz_Cash_Consumer_App" class="navigator-link ">
+                    <span>C:\Users\nauman.aziz1\eclipse-workspace\AppiumTutorial\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Jazz_Cash_Consumer_App" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Jazz_Cash_Consumer_App" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Jazz_Cash_Consumer_App" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Jazz_Cash_Consumer_App" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Jazz_Cash_Consumer_App" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Jazz_Cash_Consumer_App" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">1 method, 1 failed,   </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Jazz_Cash_Consumer_App" class="hide-methods failed suite-Jazz_Cash_Consumer_App"> (hide)</a> <!-- hide-methods failed suite-Jazz_Cash_Consumer_App -->
+                      <a href="#" panel-name="suite-Jazz_Cash_Consumer_App" class="show-methods failed suite-Jazz_Cash_Consumer_App"> (show)</a> <!-- show-methods failed suite-Jazz_Cash_Consumer_App -->
+                    </span>
+                    <div class="method-list-content failed suite-Jazz_Cash_Consumer_App">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Jazz_Cash_Consumer_App" title="tests.Keyboard" class="method navigator-link" hash-for-method="LoginAsGuest(03435598382, 1122)">LoginAsGuest(03435598382, 1122)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Jazz_Cash_Consumer_App -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Jazz_Cash_Consumer_App" class="panel Jazz_Cash_Consumer_App">
+          <div class="suite-Jazz_Cash_Consumer_App-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.Keyboard</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginAsGuest(03435598382, 1122)">
+                  </a> <!-- LoginAsGuest(03435598382, 1122) -->
+                  <span class="method-name">LoginAsGuest</span>
+                  <span class="parameters">(03435598382, 1122)</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: The process has received SIGINT signal
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;NISBDFS128980-P&apos;, ip: &apos;192.168.0.108&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.2&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.ibm.jazzcashconsumer.vi..., appPackage: com.techlogix.mobilinkcustomer, databaseEnabled: false, desired: {appActivity: com.ibm.jazzcashconsumer.vi..., appPackage: com.techlogix.mobilinkcustomer, deviceName: Samsung A21, platformName: android, platformVersion: 10, systemPort: 4723, udid: RF8NA1XLPWP}, deviceApiLevel: 29, deviceManufacturer: samsung, deviceModel: SM-A217F, deviceName: RF8NA1XLPWP, deviceScreenDensity: 280, deviceScreenSize: 720x1600, deviceUDID: RF8NA1XLPWP, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 1.75, platform: LINUX, platformName: Android, platformVersion: 10, statBarHeight: 68, systemPort: 4723, takesScreenshot: true, udid: RF8NA1XLPWP, viewportRect: {height: 1380, left: 0, top: 68, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: c78f8e83-3965-41c3-ae6a-53c2982f02da
+*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().textContains(&quot;OK&quot;).instance(0))}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.FindsByAndroidUIAutomator.findElementByAndroidUIAutomator(FindsByAndroidUIAutomator.java:38)
+	at tests.Keyboard.LoginAsGuest(Keyboard.java:71)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Jazz_Cash_Consumer_App-class-failed -->
+        </div> <!-- panel Jazz_Cash_Consumer_App -->
+        <div panel-name="test-xml-Jazz_Cash_Consumer_App" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\nauman.aziz1\eclipse-workspace\AppiumTutorial\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Jazz Cash Consumer App&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test1&quot;&gt;
+    &lt;parameter name=&quot;MSISDN&quot; value=&quot;03435598382&quot;/&gt;
+    &lt;parameter name=&quot;udid&quot; value=&quot;RF8NA1XLPWP&quot;/&gt;
+    &lt;parameter name=&quot;device&quot; value=&quot;Samsung A21&quot;/&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;10&quot;/&gt;
+    &lt;parameter name=&quot;systemPort&quot; value=&quot;4723&quot;/&gt;
+    &lt;parameter name=&quot;Password&quot; value=&quot;1122&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.Keyboard&quot;/&gt;
+      &lt;class name=&quot;tests.BaseClass&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test1 --&gt;
+&lt;/suite&gt; &lt;!-- Jazz Cash Consumer App --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Jazz_Cash_Consumer_App" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Jazz Cash Consumer App</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test1 (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Jazz_Cash_Consumer_App" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Jazz Cash Consumer App</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Jazz_Cash_Consumer_App" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Jazz Cash Consumer App</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Jazz_Cash_Consumer_App');
+function tableData_Jazz_Cash_Consumer_App() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(1);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'LoginAsGuest')
+data.setCell(0, 2, 'tests.Keyboard')
+data.setCell(0, 3, 32635);
+window.suiteTableData['Jazz_Cash_Consumer_App']= { tableData: data, tableDiv: 'times-div-Jazz_Cash_Consumer_App'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 32 seconds</span>
+              <div id="times-div-Jazz_Cash_Consumer_App">
+              </div> <!-- times-div-Jazz_Cash_Consumer_App -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Jazz_Cash_Consumer_App" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Jazz Cash Consumer App</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Jazz_Cash_Consumer_App" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">4 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.BaseClass</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">startReport</span>
+                <br/>
+                <span class="ignored-method-name">reportTearDown</span>
+                <br/>
+                <span class="ignored-method-name">reportSetup</span>
+                <br/>
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Jazz_Cash_Consumer_App" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.Keyboard</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">reportSetup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">setup(10, RF8NA1XLPWP, 4723, Samsung A21)</span>
+                <span class="method-start">134 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">startReport</span>
+                <span class="method-start">12929 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">LoginAsGuest(03435598382, 1122)</span>
+                <span class="method-start">12941 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-suite after">
+                <span class="method-name">reportTearDown</span>
+                <span class="method-start">45618 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

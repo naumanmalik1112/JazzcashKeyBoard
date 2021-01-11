@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+
+	<test name="Test1">
+	
+		<parameter name="platform" value="9" />
+		<parameter name="udid" value="R58M95CTTZF" />
+		<parameter name="systemPort" value="4723" />
+		<parameter name="device" value="Samsung" />
+        <groups>
+           <run>
+                <include name="smoke"/>      
+           </run>       
+        
+        </groups> 	
+		<classes>
+			<class name="tests.Login" />
+			<class name="tests.BaseClass" />
+			<class name="tests.ExtentReportsDemo" />
+			<class name="tests.MoneyTransferToJC"/>
+			
+		</classes>
+	</test>
+		
+		
+<!--  <test name="Test2">
+		<parameter name="platform" value="10" />
+		<parameter name="udid" value="R58M95CTTZF" />
+		<parameter name="systemPort" value="8205" />
+		<parameter name="device" value="Samsung" />
+		<classes>
+			<class name="tests.TestCase01_MarketPlace_Transaction" />
+			<class name="tests.BaseClass" />
+		</classes>
+	</test> -->
+</suite> 

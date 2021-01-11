@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="5" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-01-10T17:01:40 PKT" name="Jazz Cash Consumer App" finished-at="2021-01-10T17:02:26 PKT" duration-ms="45452">
+    <groups>
+    </groups>
+    <test started-at="2021-01-10T17:01:40 PKT" name="Test1" finished-at="2021-01-10T17:02:26 PKT" duration-ms="45452">
+      <class name="tests.Keyboard">
+        <test-method is-config="true" signature="reportSetup()[pri:0, instance:tests.Keyboard@5fa07e12]" started-at="2021-01-10T17:01:40 PKT" name="reportSetup" finished-at="2021-01-10T17:01:40 PKT" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportSetup -->
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.Keyboard@5fa07e12]" started-at="2021-01-10T17:01:40 PKT" name="setup" finished-at="2021-01-10T17:01:53 PKT" duration-ms="12795" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[RF8NA1XLPWP]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4723]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Samsung A21]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="startReport()[pri:0, instance:tests.Keyboard@5fa07e12]" started-at="2021-01-10T17:01:53 PKT" name="startReport" finished-at="2021-01-10T17:01:53 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method signature="LoginAsGuest(java.lang.String, java.lang.String)[pri:1, instance:tests.Keyboard@5fa07e12]" started-at="2021-01-10T17:01:53 PKT" name="LoginAsGuest" finished-at="2021-01-10T17:02:26 PKT" duration-ms="32635" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[03435598382]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1122]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[An unknown server-side error occurred while processing the command. Original error: The process has received SIGINT signal
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'NISBDFS128980-P', ip: '192.168.0.108', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.ibm.jazzcashconsumer.vi..., appPackage: com.techlogix.mobilinkcustomer, databaseEnabled: false, desired: {appActivity: com.ibm.jazzcashconsumer.vi..., appPackage: com.techlogix.mobilinkcustomer, deviceName: Samsung A21, platformName: android, platformVersion: 10, systemPort: 4723, udid: RF8NA1XLPWP}, deviceApiLevel: 29, deviceManufacturer: samsung, deviceModel: SM-A217F, deviceName: RF8NA1XLPWP, deviceScreenDensity: 280, deviceScreenSize: 720x1600, deviceUDID: RF8NA1XLPWP, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 1.75, platform: LINUX, platformName: Android, platformVersion: 10, statBarHeight: 68, systemPort: 4723, takesScreenshot: true, udid: RF8NA1XLPWP, viewportRect: {height: 1380, left: 0, top: 68, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: c78f8e83-3965-41c3-ae6a-53c2982f02da
+*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().textContains("OK").instance(0))}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: The process has received SIGINT signal
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'NISBDFS128980-P', ip: '192.168.0.108', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.ibm.jazzcashconsumer.vi..., appPackage: com.techlogix.mobilinkcustomer, databaseEnabled: false, desired: {appActivity: com.ibm.jazzcashconsumer.vi..., appPackage: com.techlogix.mobilinkcustomer, deviceName: Samsung A21, platformName: android, platformVersion: 10, systemPort: 4723, udid: RF8NA1XLPWP}, deviceApiLevel: 29, deviceManufacturer: samsung, deviceModel: SM-A217F, deviceName: RF8NA1XLPWP, deviceScreenDensity: 280, deviceScreenSize: 720x1600, deviceUDID: RF8NA1XLPWP, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 1.75, platform: LINUX, platformName: Android, platformVersion: 10, statBarHeight: 68, systemPort: 4723, takesScreenshot: true, udid: RF8NA1XLPWP, viewportRect: {height: 1380, left: 0, top: 68, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: c78f8e83-3965-41c3-ae6a-53c2982f02da
+*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().textContains("OK").instance(0))}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+at io.appium.java_client.FindsByAndroidUIAutomator.findElementByAndroidUIAutomator(FindsByAndroidUIAutomator.java:38)
+at tests.Keyboard.LoginAsGuest(Keyboard.java:71)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginAsGuest -->
+        <test-method is-config="true" signature="reportTearDown()[pri:0, instance:tests.Keyboard@5fa07e12]" started-at="2021-01-10T17:02:26 PKT" name="reportTearDown" finished-at="2021-01-10T17:02:26 PKT" duration-ms="226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportTearDown -->
+      </class> <!-- tests.Keyboard -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Jazz Cash Consumer App -->
+</testng-results>

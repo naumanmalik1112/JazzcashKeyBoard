@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Jazz Cash Consumer App]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test1(failed)">
+    <parameter name="MSISDN" value="03435598382"/>
+    <parameter name="udid" value="RF8NA1XLPWP"/>
+    <parameter name="device" value="Samsung A21"/>
+    <parameter name="platform" value="10"/>
+    <parameter name="systemPort" value="4723"/>
+    <parameter name="Password" value="1122"/>
+    <classes>
+      <class name="tests.Keyboard">
+        <methods>
+          <include name="reportTearDown"/>
+          <include name="startReport"/>
+          <include name="LoginAsGuest" invocation-numbers="0"/>
+          <include name="reportSetup"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.Keyboard -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Jazz Cash Consumer App] -->
